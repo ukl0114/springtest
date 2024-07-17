@@ -1,6 +1,9 @@
 package polymorphism;
 
-public class SonySpeaker implements Speaker{
+import org.springframework.stereotype.Component;
+
+@Component("sony")
+public class SonySpeaker implements Speaker {
 	public SonySpeaker() {
 		System.out.println("====> 家聪 胶乔目 按眉 积己");
 	}
